@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Kalnia:wght@300;400&family=Martel&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kalnia';
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F8F7F9;
+    justify-content: center;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 25px;
+
+}
+
+.logo{
+    font-size: 35px;
+    color: #3B413C;
+    text-decoration: none;
+
+}
+
+.menu{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.menu li{
+    margin-left: 40px;
+    list-style: none;
+}
+
+.menu li a{
+    font-size: 22px;
+    color: #3B413C;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#home:hover{
+    background-color: #587D71;
+    display: flex;
+    color: #F8F7F9;
+    padding: 8.5px;
+    border-radius: 40px;
+}
+
+#quiz:hover{
+    background-color: #587D71;
+    display: flex;
+    color: #F8F7F9;
+    padding: 8.5px;
+    border-radius: 40px;
+}
+
+#about:hover{
+    background-color:#587D71;;
+    display: flex;
+    color: #F8F7F9;
+    padding: 8.5px;
+    border-radius: 40px;
+}
+
+.searchbar{
+    margin-right: 100px;
+    margin: auto;
+    display: flex;
+
+
+    background-color:rgba(43, 45, 66, 0.9);
+    align-items: center;
+    min-width: 10%;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 60px;
+    padding: 5px 15px;
+}
+
+.searchbar input{
+    display: flex;
+    
+    background: transparent;
+    border: none;
+    padding: 15px;
+    font-size: 22px;
+    color: #F8F7F9;
+    flex: 0.98;
+   
+}
+
+::placeholder{
+    color:#F8F7F9;
+    opacity: 0.5;
+}
+
+.searchbar button img{
+    width: 28px;
+}
+
+.searchbar button{
+    background-color: transparent;
+    border: none;
+    height: 50px;
+    width: 50px;
+    opacity: 0.45;
+    cursor: pointer;
+}
+
+.searchbar button:hover{
+    background-color: #5d6088;
+    border-radius: 30px;
+    transition: 0.2s;
+}
+
+.background img{
+    object-fit: contain;
+    width: 1500px;
+    height: 75vh;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* images of mbti's */
+
+.container{
+    margin-top: 20px;
+}
+
+.title{
+    text-align: center;
+    font-size: 36px;
+    color: #3B413C;
+    margin-bottom: 10px;
+}
+
+.description{
+    text-align: center;
+    font-size: 24px;
+    color: #5c5c5c;
+    margin-bottom: -50px;
+}
+
+.analysts img{
+    width: 230px;
+}
+
+.analysts{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.analysts li{
+    display: inline-flex;
+    justify-content: center;
+
+    list-style: none;
+    margin: 60px;
+
+    width: 200px;
+    height: auto;
+}
+
+.analysts li a{
+    font-size: 22px;
+    text-decoration: none;
+    text-align: center;
+    padding: 30px;
+    color: #3B413C;
+}
+
+.analysts li a:hover{
+    background-color: #A09ABC;
+    border-radius: 40px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.analysts div{
+    text-align: center;
+    font-size: 22px;
+    color: #3B413C;
+    padding: 30px;
+}
+
+.analysts div:hover{
+    background-color: #A09ABC;
+    border-radius: 40px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.diplomats img{
+    width: 230px;
+}
+
+.diplomats{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.diplomats li{
+    display: inline-flex;
+    justify-content: center;
+
+    list-style: none;
+    margin: 60px;
+
+    width: 200px;
+    height: auto;
+}
+
+.diplomats div{
+    text-align: center;
+    font-size: 22px;
+    color: #3B413C;
+    padding: 30px;
+}
+
+.diplomats div:hover{
+    background-color: #99C2A2;
+    border-radius: 40px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+#INFP{
+    width: 200px;
+}
+
+#ENFP{
+    width: 200px;
+}
+
+.sentinels img{
+    width: 230px;
+}
+
+.sentinels{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.sentinels li{
+    display: inline-flex;
+    justify-content: center;
+
+    list-style: none;
+    margin: 60px;
+
+    width: 200px;
+    height: auto;
+}
+
+.sentinels div{
+    text-align: center;
+    font-size: 22px;
+    color: #3B413C;
+    padding: 30px;
+}
+
+.sentinels div:hover{
+    background-color: #B0D0D3;
+    border-radius: 40px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+#ISFJ{
+    width: 175px;
+}
+
+#ESFJ{
+    width: 210px;
+}
+
+.explorers img{
+    width: 230px;
+}
+
+.explorers{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.explorers li{
+    display: inline-flex;
+    justify-content: center;
+
+    list-style: none;
+    margin: 60px;
+
+    width: 200px;
+    height: auto;
+}
+
+.explorers div{
+    text-align: center;
+    font-size: 22px;
+    color: #3B413C;
+    padding: 30px;
+}
+
+.explorers div:hover{
+    background-color: #E9D985;
+    border-radius: 40px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+#ISTP, #ESFP{
+    width: 180px;
+
+}
+
+.container, .background{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
